@@ -1,0 +1,38 @@
+
+header {
+    min-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    background-color: #DCDCDC;
+}
+.wrapper {
+    position: relative;
+    box-sizing: border-box;
+    width: 1000px;
+    padding: 65px 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 100px;
+    img {
+        width: 273px;
+    }
+}  
+.contacts {
+    position: absolute;
+    right: 10px;
+        a {
+            display: block;
+            font-size: 40px;
+            line-height: 1.15;
+            letter-spacing: 1px;
+            color: #767676;
+        }
+    }
+  
+
+
