@@ -6,6 +6,10 @@ header {
     height: 230px;
     background-color: #DCDCDC;
 }
+h1 {
+    position: absolute;
+    left: -9999px;
+}
 .wrap-head {
     position: relative;
     box-sizing: border-box;
