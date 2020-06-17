@@ -3,9 +3,10 @@
     padding: 0 10px;
     margin: 0 auto;
     box-sizing: border-box;
+    margin-bottom: 100px;
 }
 
-h2 {
+.calculator-h2 {
     margin-bottom: 32px;
     font-size: 24px;
     text-align: center;
@@ -68,7 +69,6 @@ h4 {
 //calculator-wrap2
 
 .calculator-wrap2 {
-    width: 1000px;
     height: 513px;
     margin: 0 auto;
     position: relative;
@@ -164,7 +164,7 @@ h4 {
     width: 645px;
     height: 360px;
     box-sizing: border-box;
-    padding: 55px 0 0 84px;
+    padding: 58px 0 0 90px;
     z-index: 1000;
     label, .custom-select-wrap {
         font-size: 18px;
