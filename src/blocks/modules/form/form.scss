@@ -17,16 +17,17 @@
     height: 480px;
     position: relative;
 }
-h2 {
-    margin-bottom: 15px;
-    font-family: 'MyriadPro-Semibold';
-    color: #9da3d7;        
-    letter-spacing: 0.6px;
-}
-form {
+
+.form-number {
     position: absolute;
     top: 68px;
     left: 107px;
+    h2 {
+        margin-bottom: 15px;
+        font-family: 'MyriadPro-Semibold';
+        color: #9da3d7;        
+        letter-spacing: 0.6px;
+    }
 }
 .wrap-form {   
     height: 275px;

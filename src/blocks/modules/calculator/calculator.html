@@ -1,0 +1,79 @@
+<section class="section-calculator">
+    <h2>калькулятор<br/>(стоимость пользователь узнает по телефону)</h2>
+    <div class="calculator-wrap1">
+        <div data-item="1" class="calculator-item">
+            <img src="../../../img/singleLeaf.png" alt="singleLeaf">
+            <p class="active-calcucator">Одностворчатое</p>
+        </div>
+        <div data-item="2" class="calculator-item">
+            <img src="../../../img/double.png" alt="double">
+            <p>Двухстворчатое</p>
+        </div>
+        <div data-item="3" class="calculator-item">
+            <img src="../../../img/tricuspid.png" alt="tricuspid">
+            <p>Трехстворчатое</p>
+        </div>
+        <div data-item="4" class="calculator-item">
+            <img src="../../../img/balconyBlock.png" alt="balcony Block">
+            <p>Балконный блок</p>
+        </div>
+        <div data-item="5" class="calculator-item">
+            <img src="../../../img/balconyGlazing.png" alt="balcony Glazing">
+            <p>Остекление балкона</p>
+        </div>
+    </div>
+    <div class="calculator-wrap2">
+        <div class="calculator-sizes">
+            <p class="height-value">высота</p>
+            <p class="width-value">ширина</p>
+            <img src="../../../img/singleLeaf.png" alt="type of glazing">
+            <form class="form-sizes" action="">
+                <div class="width-wrap">
+                    <label for="width">ширина, см</label>
+                    <input type="text" id="width" placeholder="120">
+                </div>
+                <span>X</span>
+                <div class="height-wrap">
+                    <label for="height">высота, см</label>
+                    <input type="text" id="height" placeholder="120">
+                </div>
+            </form>
+        </div>
+        <div class="calculator-criteria">
+            <h3>Одностворчатое окно KBE</h3>
+            <h4>1. Критерий выбора</h4>
+            <form class="custom-radio-wrap">
+                <div class="radio">
+                    <input class="custom-radio" type="radio" id="criterion1" name="criterion">
+                    <label for="criterion1">пункт выбора 1</label>
+                </div>                
+                <div class="radio">
+                    <input class="custom-radio" type="radio" id="criterion2" name="criterion">
+                    <label for="criterion2">пункт выбора 2</label>
+                </div>                
+                <div class="radio">
+                    <input class="custom-radio" type="radio" id="criterion3" name="criterion">
+                    <label for="criterion3">пункт выбора 3</label>
+                </div>
+            </form>
+            <h4>2. Выберите открывание створки</h4>
+            <form class="custom-select-wrap">
+                <div class="select-header">
+                    <span class="select-current">Не открывается</span>
+                    <div class="select-icon"></div>
+                </div>            
+                <div class="select-body">
+                    <div class="select-item">Не открывается</div>
+                    <div class="select-item">Отворотная</div>
+                    <div class="select-item">Откидная</div>
+                    <div class="select-item">Раздвижная</div>
+                </div>
+            </form>
+        </div>
+        <div class="calculate-send">            
+            <input type="text" class="number" value="Введите номер">
+            <input type="submit" class="calculate" value="рассчитать">
+            <div class="user"></div>
+        </div>
+    </div>
+</section>

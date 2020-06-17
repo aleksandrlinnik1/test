@@ -1,0 +1,53 @@
+.custom-select-wrap {
+	position: relative;
+	width: 358px;
+    height: 46px;
+}
+.custom-select-wrap.is-active .select-body {
+	display: block;}
+
+.select-header {
+	border: solid 2px #aeaeae;
+	cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+}
+.select-current {
+    font-size: 18.5px;
+    line-height: 2.22;
+    margin-left: 24px;
+    color: #000;
+}
+.select-icon {
+	width: 0;
+	height: 0;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+    border-top: 20px solid #aeaeae;
+    position: absolute;
+    right: 17px;
+    top: 13px;
+}
+
+.select-body {
+    border: 1px solid #aeaeae;
+    border-top: 0;
+    margin-top: 5px;
+	display: none;
+	left: 0;
+	position: absolute;
+	right: 0;
+    top: 70%;
+    padding-top: 10px;
+}
+.select-item {
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 24px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+.select-item:hover {
+	background-color: #f2f2f2;
+}
