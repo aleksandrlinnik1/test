@@ -202,6 +202,7 @@ h4 {
     color: #424242;
     border: none;
     padding-left: 60px;
+    cursor: pointer;
 }
 
 .calculate {
@@ -213,6 +214,7 @@ h4 {
     text-transform: uppercase;
     text-align: center;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .calculate-send input {
@@ -228,5 +230,5 @@ h4 {
     position: absolute;
     top: 3px;
     left: 11px;
-    background-image: url('../../../img/user.png');
+    background-image: url('../img/user.png');
 }
